@@ -1,4 +1,4 @@
-## Hashdump-random/specific
+## Hashdump-specific
 
 A simple hash tool is used to calculate specific hash values. 
 
