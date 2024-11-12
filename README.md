@@ -1,10 +1,8 @@
 ## Hashdump-random/specific
 
-A simple hash tool is used to calculate random hash values. 
+A simple hash tool is used to calculate specific hash values. 
 
-If you need to calculate a specific hash, you need to modify the code
-
-#### Added a new parameter `hash_algorithm` that allows the user to specify the hashing algorithm to use
+####  `hash_algorithm` that allows the user to specify the hashing algorithm to use
 
 ```python
 def brute_force_hash(*,*,hash_algorithm='*')
@@ -18,7 +16,7 @@ def brute_force_hash(*,*,hash_algorithm='*')
 hash_func = hashlib.new(hash_algorithm)
 ```
 
-#### Use the `update()` method to update the value of the hash object, so that the hash value can be gradually accumulated.
+####  `update()` method to update the value of the hash object, so that the hash value can be gradually accumulated.
 
 ```python
 hash_func.update(attempt_str.encode())
